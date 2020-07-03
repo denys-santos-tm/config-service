@@ -1,0 +1,8 @@
+# Ignorar tudo
+*
+
+# Considerar apenas estes arquivos/pastas
+!src
+!package.json
+!yarn.lock
+!tsconfig.json

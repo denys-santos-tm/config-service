@@ -1,0 +1,48 @@
+{
+    "name": "node-boilerplate-microservice",
+    "description": "Boilerplate Typescript",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:trademasterbr/node.boilerplate-microservice.git",
+    "author": "Equipe Dev TM",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "start:server": "node build/index.js",
+        "start:development": "ts-node-dev --inspect --transpileOnly --ignore-watch node_modules src/index.ts",
+        "test": "jest --passWithNoTests --detectOpenHandles --forceExit",
+        "test:ci": "jest --passWithNoTests --silent --coverage --runInBand --detectOpenHandles --forceExit"
+    },
+    "dependencies": {
+        "@types/node": "^14.0.14",
+        "@types/nodegit": "^0.26.6",
+        "body-parser": "^1.19.0",
+        "child_process": "^1.0.2",
+        "express": "^4.17.1",
+        "express-async-errors": "^3.1.1",
+        "simple-git": "^2.11.0",
+        "ts-scheduler": "^8.0.4",
+        "winston": "^3.2.1"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.6",
+        "@types/jest": "^25.2.3",
+        "@types/supertest": "^2.0.9",
+        "@typescript-eslint/eslint-plugin": "^3.0.0",
+        "@typescript-eslint/parser": "^3.0.0",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb-base": "^14.1.0",
+        "eslint-config-prettier": "^6.10.1",
+        "eslint-import-resolver-typescript": "^2.0.0",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-prettier": "^3.1.3",
+        "husky": "^4.2.5",
+        "jest": "^26.0.1",
+        "lint-staged": "^10.2.6",
+        "prettier": "^2.0.4",
+        "supertest": "^4.0.2",
+        "ts-jest": "^26.0.0",
+        "ts-node-dev": "^1.0.0-pre.44",
+        "typescript": "^3.8.3"
+    }
+}
