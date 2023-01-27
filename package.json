@@ -20,7 +20,7 @@
         "child_process": "^1.0.2",
         "express": "^4.17.1",
         "express-async-errors": "^3.1.1",
-        "simple-git": "^2.11.0",
+        "simple-git": "^3.16.0",
         "ts-scheduler": "^8.0.4",
         "winston": "^3.2.1"
     },
